@@ -41,7 +41,7 @@ input, select { vertical-align:middle; }
 
 
 body {
-	background: #000;
+	background: #fff;
 	width: 100%;
 	height: 100%;
 }
@@ -153,3 +153,61 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 
 
 /* Base Styles -----------------------------------------------------------*/
+h2 {
+	font-family: ITCAvantGardeStd_Demi;
+	font-size: 26px;
+	color: #656e65;
+}
+
+h3 {
+	font-family: ITCAvantGardeStd_Demi;
+	padding: 0px 0 35px 0;
+	font-size: 18px;
+	color: #8cb966;
+}
+
+.container {
+	text-align: center;
+	position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.logo {
+	padding: 30px 0 30px 0;
+	width: 250px;
+
+}
+
+.button {
+	background-image: url(images/button.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-transform: uppercase;
+	font-family: YardSale;
+	display: inline-block;
+	margin-bottom: 25px !important;
+	padding: 0px 55px 20px 55px;
+	font-size: 50px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.button2 {
+	background-image: url(images/button-2.png);
+	font-family: ITCAvantGardeStd_Demi;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	padding: 10px 23px;
+	position: relative;
+	font-size: 20px;
+	margin: 0 auto;
+	bottom: -20px;
+	color: #fff;
+}
+
+
+
+/* HOME */

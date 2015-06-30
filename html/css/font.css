@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'helvetica_light';
+    src: url('fonts/helveticaltstd-light-webfont.eot');
+    src: url('fonts/helveticaltstd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaltstd-light-webfont.woff') format('woff'),
+         url('fonts/helveticaltstd-light-webfont.ttf') format('truetype'),
+         url('fonts/helveticaltstd-light-webfont.svg#helvetica_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_bold';
+    src: url('fonts/helveticaltstd-bold-webfont.eot');
+    src: url('fonts/helveticaltstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaltstd-bold-webfont.woff') format('woff'),
+         url('fonts/helveticaltstd-bold-webfont.ttf') format('truetype'),
+         url('fonts/helveticaltstd-bold-webfont.svg#helvetica_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ITCAvantGardeStd_Demi';
+    src: url('fonts/ITCAvantGardeStd-Demi.eot');
+    src: url('fonts/ITCAvantGardeStd-Demi.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ITCAvantGardeStd-Demi.woff') format('woff'),
+         url('fonts/ITCAvantGardeStd-Demi.ttf') format('truetype'),
+         url('fonts/ITCAvantGardeStd-Demi.svg#ITCAvantGardeStd_Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'YardSale';
+    src: url('fonts/YardSale.eot');
+    src: url('fonts/YardSale.eot?#iefix') format('embedded-opentype'),
+         url('fonts/YardSale.woff') format('woff'),
+         url('fonts/YardSale.ttf') format('truetype'),
+         url('fonts/YardSale.svg#YardSale') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
