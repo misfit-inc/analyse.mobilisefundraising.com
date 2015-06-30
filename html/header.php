@@ -25,7 +25,7 @@
 	$basename = basename($_SERVER['PHP_SELF'],'.php');
 
 	if($basename != 'index') {
-		$bodyclass = 'page';
+		$bodyclass = $basename;
 	} else {
 		$bodyclass = 'home';
 	}
