@@ -153,6 +153,13 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 
 
 /* Base Styles -----------------------------------------------------------*/
+h1 {
+	text-transform: uppercase;
+	font-family: YardSale;
+	font-size: 110px;
+	color: #5abdd2;
+}
+
 h2 {
 	font-family: ITCAvantGardeStd_Demi;
 	font-size: 26px;
@@ -165,6 +172,13 @@ h3 {
 	margin: -10px 0 0 0;
 	font-size: 18px;
 	color: #8cb966;
+}
+
+h4 {
+	font-family: ITCAvantGardeStd_Demi;
+	padding: 0 0 30px 0;
+	font-size: 24px;
+	color: #656e65;
 }
 
 .container {
@@ -182,35 +196,38 @@ h3 {
 
 .button {
 	background-image: url(images/button.png);
+	margin-bottom: 25px !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	text-transform: uppercase;
 	font-family: YardSale;
 	display: inline-block;
-	margin-bottom: 25px !important;
-	padding: 0px 55px 20px 55px;
+	padding: 0px 0 20px 0;
 	font-size: 50px;
 	margin: 0 auto;
 	color: #fff;
+	width: 100%;
 }
 
 .button2 {
 	background-image: url(images/button-2.png);
 	font-family: ITCAvantGardeStd_Demi;
+	margin-bottom: 30px !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	display: inline-block;
-	padding: 10px 23px;
+	padding: 10px 0;
 	position: relative;
 	font-size: 20px;
 	margin: 0 auto;
 	bottom: -20px;
 	color: #fff;
+	width: 100%;
 }
 
 
 
-/* ONE-CLICK BUTTON*/
+/* ONE-CLICK BUTTON & ONE-CLICK THANKS */
 .one-click .logo,
 .one-click2 .logo {
 	width: 200px;
@@ -231,9 +248,10 @@ h3 {
 
 .form-container {
 	background-color: #ffdd00; 
+	display: table;
 	height: 320px;
 	width: 100%; 
-	display: table;
+	
 }
 
 .form-container p {
