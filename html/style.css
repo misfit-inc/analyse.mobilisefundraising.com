@@ -196,6 +196,7 @@ h4 {
 
 .button {
 	background-image: url(images/button.png);
+	background-position: center center; 
 	margin-bottom: 25px !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -211,6 +212,7 @@ h4 {
 
 .button2 {
 	background-image: url(images/button-2.png);
+	background-position: center center; 
 	font-family: ITCAvantGardeStd_Demi;
 	margin-bottom: 30px !important;
 	background-repeat: no-repeat;
@@ -225,12 +227,20 @@ h4 {
 	width: 100%;
 }
 
-
-
-/* ONE-CLICK BUTTON & ONE-CLICK THANKS */
-.one-click .logo,
-.one-click2 .logo {
-	width: 200px;
+.button3 {
+	background-image: url(images/button-3.png);
+	background-position: center center; 
+	font-family: ITCAvantGardeStd_Demi;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 0;
+	position: relative;
+	font-size: 20px;
+	bottom: 65px;
+	color: #fff;
+	width: 95%;
 }
 
 .first-title {
@@ -246,12 +256,19 @@ h4 {
 	color: #656e65;
 }
 
+
+
+/* ONE-CLICK PAGE & ONE-CLICK THANKS */
+.one-click .logo,
+.one-click2 .logo {
+	width: 200px;
+}
+
 .form-container {
 	background-color: #ffdd00; 
 	display: table;
 	height: 320px;
 	width: 100%; 
-	
 }
 
 .form-container p {
@@ -259,4 +276,22 @@ h4 {
 	display: table-cell;
 	text-align: center;
 	font-size: 40px;
+}
+
+
+
+/* TWO-CLICK PAGE */
+.two-click-container {
+	position: relative;
+	height: 300px
+}
+
+.two-click-image {
+	background-position: center center; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 30px;
+	position: relative;
+	height: 300px;
+	width: 100%;	
 }
