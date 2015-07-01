@@ -199,10 +199,17 @@ h1, h2, h3, h4, p {
 	width: 250px;
 }
 
+.icon {
+	position: absolute;
+	width: 27px;
+	top: 8px;
+	right: 10px;
+}
+
 .button {
 	background-image: url(images/button.png);
 	background-position: center center; 
-	margin-bottom: 25px !important;
+	margin-bottom: 15px !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	text-transform: uppercase;
@@ -219,6 +226,7 @@ h1, h2, h3, h4, p {
 	background-image: url(images/button-2.png);
 	background-position: center center; 
 	font-family: ITCAvantGardeStd_Demi;
+	margin-top: 30px !important;
 	margin-bottom: 30px !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -271,6 +279,7 @@ h1, h2, h3, h4, p {
 
 .form-container {
 	background-color: #ffdd00; 
+	margin-bottom: 30px;
 	display: table;
 	height: 320px;
 	width: 100%; 
@@ -324,13 +333,18 @@ h1, h2, h3, h4, p {
 	padding: 0;
 }
 
-.contact-us a img {
-	position: absolute;
-	width: 30px;
-	top: 8px;
-	right: 10px;
-}
-
 .contact-us .button2 {
 	margin-bottom: 15px !important;
+	margin-top: 0 !important;
+}
+
+.contact-us .button2.last {
+	margin-bottom: 30px !important;
+}
+
+
+
+/* ERROR PAGE */
+.error-page h4 {
+	padding: 0 0 10px 0;
 }
