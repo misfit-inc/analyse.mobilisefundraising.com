@@ -5,7 +5,7 @@
 
 	<a href="one-click.php" class="button">One-Click Button</a><br>
 
-	<a href="#" class="button2">Get a button for your cause</a>
+	<a href="contact-us.php" class="button2">Get a button for your cause</a>
 
 </section>
 
