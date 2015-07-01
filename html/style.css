@@ -225,7 +225,7 @@ h1, h2, h3, h4, p {
 	display: inline-block;
 	padding: 10px 0;
 	position: relative;
-	font-size: 20px;
+	font-size: 18px;
 	margin: 0 auto;
 	bottom: -20px;
 	color: #fff;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, p {
 	display: inline-block;
 	padding: 10px 0;
 	position: relative;
-	font-size: 20px;
+	font-size: 18px;
 	bottom: -235px;
 	color: #fff;
 	width: 95%;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, p {
 
 
 
-/* TWO-CLICK PAGE */
+/* TWO-CLICK PAGE & TWO-CLICK THANKS */
 .two-form .form-container {
 	margin-top: 36px;
 } 
@@ -315,4 +315,22 @@ h1, h2, h3, h4, p {
 	content: "";
 	right: 25px;
 	top: 25px; 
+}
+
+
+
+/* CONTACT US */
+.contact-us h4 {
+	padding: 0;
+}
+
+.contact-us a img {
+	position: absolute;
+	width: 30px;
+	top: 8px;
+	right: 10px;
+}
+
+.contact-us .button2 {
+	margin-bottom: 15px !important;
 }
