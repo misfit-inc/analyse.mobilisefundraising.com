@@ -156,7 +156,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 h1 {
 	text-transform: uppercase;
 	font-family: YardSale;
-	font-size: 110px;
+	margin-top: -15px;
+	font-size: 105px;
 	color: #5abdd2;
 }
 
@@ -177,8 +178,12 @@ h3 {
 h4 {
 	font-family: ITCAvantGardeStd_Demi;
 	padding: 0 0 30px 0;
-	font-size: 24px;
+	font-size: 20px;
 	color: #656e65;
+}
+
+h1, h2, h3, h4, p {
+	text-align: left;
 }
 
 .container {
@@ -186,7 +191,7 @@ h4 {
 	position: relative;
 	max-width: 1024px;
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 }
 
 .logo {
@@ -238,7 +243,7 @@ h4 {
 	padding: 10px 0;
 	position: relative;
 	font-size: 20px;
-	bottom: 65px;
+	bottom: -235px;
 	color: #fff;
 	width: 95%;
 }
@@ -281,6 +286,10 @@ h4 {
 
 
 /* TWO-CLICK PAGE */
+.two-form .form-container {
+	margin-top: 36px;
+} 
+
 .two-click-container {
 	position: relative;
 	height: 300px
@@ -294,4 +303,16 @@ h4 {
 	position: relative;
 	height: 300px;
 	width: 100%;	
+}
+
+.two-click-image:before {
+	background-image: url(images/dec-logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	height: 140px;
+	width: 140px;
+	content: "";
+	right: 25px;
+	top: 25px; 
 }

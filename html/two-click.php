@@ -5,9 +5,9 @@
 
 	<div class="two-click-container">
 
-		<div class="two-click-image" style="background-image: url(images/two-click-image.png);"></div>
-
-		<a href="#" class="button3">Give £3 now</a>
+		<div class="two-click-image" style="background-image: url(images/two-click-image.png);">
+			<a href="two-form.php" class="button3">Give £3 now</a>
+		</div>
 
 	</div>
 
