@@ -5,7 +5,9 @@
 and (max-width : 399px) 
 {	
 
-
+	.button {
+		font-size: 45px;
+	}
 
 }
 
@@ -20,12 +22,9 @@ and (min-width : 400px)
 and (max-width : 479px) 
 {	
 
-
-
-
-
-
-
+	.button {
+		font-size: 45px;
+	}
 
 }
 
@@ -91,22 +90,6 @@ and (max-width : 960px)
 
 
 
-}
-
-
-/* ================================================  IPADS AT LANDSCAPE WIDTH 1024  ======================================= */
-
-
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
-{	
-
-	
-	
-
-
-		
 }
 
 

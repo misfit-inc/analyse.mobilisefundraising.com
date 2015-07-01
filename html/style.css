@@ -211,11 +211,12 @@ h1, h2, h3, h4, p {
 	background-position: center center; 
 	margin-bottom: 15px !important;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
 	text-transform: uppercase;
 	font-family: YardSale;
 	display: inline-block;
 	padding: 0px 0 20px 0;
+	border-radius: 15px;
 	font-size: 50px;
 	margin: 0 auto;
 	color: #fff;
@@ -229,10 +230,11 @@ h1, h2, h3, h4, p {
 	margin-top: 30px !important;
 	margin-bottom: 30px !important;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
 	display: inline-block;
-	padding: 10px 0;
+	border-radius: 15px;
 	position: relative;
+	padding: 10px 0;
 	font-size: 18px;
 	margin: 0 auto;
 	bottom: -20px;
@@ -245,11 +247,12 @@ h1, h2, h3, h4, p {
 	background-position: center center; 
 	font-family: ITCAvantGardeStd_Demi;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 10px 0;
+	border-radius: 15px;
 	position: relative;
+	padding: 10px 0;
 	font-size: 18px;
 	bottom: -235px;
 	color: #fff;
@@ -289,7 +292,7 @@ h1, h2, h3, h4, p {
 	vertical-align: middle;
 	display: table-cell;
 	text-align: center;
-	font-size: 40px;
+	font-size: 26px;
 }
 
 
@@ -300,6 +303,7 @@ h1, h2, h3, h4, p {
 } 
 
 .two-click-container {
+	margin-bottom: 30px;
 	position: relative;
 	height: 300px
 }
