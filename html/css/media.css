@@ -9,6 +9,22 @@ and (max-width : 399px)
 		font-size: 45px;
 	}
 
+	.two-click-image:before {
+		height: 80px;
+  		width: 80px;
+		right: 20px;
+		top: 70px;
+	}
+
+	.button2 {
+		font-size: 16px;
+	}
+
+	.button3 {
+		bottom: -190px;
+		width: 85%;
+	}
+
 }
 
 
@@ -26,6 +42,22 @@ and (max-width : 479px)
 		font-size: 45px;
 	}
 
+	.two-click-image:before {
+		height: 80px;
+  		width: 80px;
+		right: 20px;
+		top: 70px;
+	}
+
+	.button2 {
+		font-size: 16px;
+	}
+
+	.button3 {
+		bottom: -190px;
+		width: 90%;
+	}
+
 }
 
 
@@ -38,13 +70,17 @@ and (min-width : 480px)
 and (max-width : 639px) 
 {	
 
+	.two-click-image:before {
+		height: 90px;
+  		width: 90px;
+		right: 20px;
+		top: 50px;
+	}
 
-
-
-
-
-
-
+	.button3 {
+		bottom: -205px;
+		width: 90%;
+	}
 				
 }
 
@@ -58,10 +94,13 @@ and (min-width : 640px)
 and (max-width : 799px) 
 {	
 	
-
-
+	.button3 {
+		width: 90%;
+	}
 
 }
+
+
 /* ================================================  SLIGHTLY SMALLER RESOLUTIONS, BUT NOT QUITE IPHONE ======================================= */
 
 
@@ -69,7 +108,10 @@ and (max-width : 799px)
 and (min-width : 800px) 
 and (max-width : 854px) 
 {	
-	
+
+	.button3 {
+		width: 90%;
+	}	
 
 }
 
@@ -85,10 +127,9 @@ and (min-width : 855px)
 and (max-width : 960px) 
 {	
 
-	
-
-
-
+	.button3 {
+		width: 90%;
+	}
 
 }
 

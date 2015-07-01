@@ -211,7 +211,7 @@ h1, h2, h3, h4, p {
 	background-position: center center; 
 	margin-bottom: 15px !important;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 120% 100%;
 	text-transform: uppercase;
 	font-family: YardSale;
 	display: inline-block;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, p {
 	margin-top: 30px !important;
 	margin-bottom: 30px !important;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 120% 100%;
 	display: inline-block;
 	border-radius: 15px;
 	position: relative;
@@ -247,7 +247,7 @@ h1, h2, h3, h4, p {
 	background-position: center center; 
 	font-family: ITCAvantGardeStd_Demi;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 120% 100%;
 	text-transform: uppercase;
 	display: inline-block;
 	border-radius: 15px;
@@ -321,7 +321,7 @@ h1, h2, h3, h4, p {
 .two-click-image:before {
 	background-image: url(images/dec-logo.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	position: absolute;
 	height: 140px;
 	width: 140px;
@@ -349,6 +349,10 @@ h1, h2, h3, h4, p {
 
 
 /* ERROR PAGE */
+.error-page .button2 {
+	margin-top: -30px !important;
+}
+
 .error-page h4 {
 	padding: 0 0 10px 0;
 }
