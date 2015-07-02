@@ -217,10 +217,11 @@ h1, h2, h3, h4, p {
 	display: inline-block;
 	padding: 0px 0 20px 0;
 	border-radius: 15px;
+	text-align: center;
 	font-size: 50px;
-	margin: 0 auto;
 	color: #fff;
 	width: 100%;
+	opacity: 0.9;
 }
 
 .button2 {
@@ -240,6 +241,7 @@ h1, h2, h3, h4, p {
 	bottom: -20px;
 	color: #fff;
 	width: 100%;
+	opacity: 0.9;
 }
 
 .button3 {
@@ -257,6 +259,19 @@ h1, h2, h3, h4, p {
 	bottom: -235px;
 	color: #fff;
 	width: 95%;
+	opacity: 0.9;
+}
+
+.button:hover {
+	opacity: 1;
+} 
+
+.button2:hover {
+	opacity: 1;
+}
+
+.button3:hover {
+	opacity: 1;
 }
 
 .first-title {
