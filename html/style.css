@@ -234,10 +234,10 @@ h1, h2, h3, h4, p {
 	background-size: 120% 100%;
 	display: inline-block;
 	border-radius: 15px;
+	text-align: center;
 	position: relative;
 	padding: 10px 0;
 	font-size: 18px;
-	margin: 0 auto;
 	bottom: -20px;
 	color: #fff;
 	width: 100%;
@@ -253,6 +253,7 @@ h1, h2, h3, h4, p {
 	text-transform: uppercase;
 	display: inline-block;
 	border-radius: 15px;
+	text-align: center;
 	position: relative;
 	padding: 10px 0;
 	font-size: 18px;
