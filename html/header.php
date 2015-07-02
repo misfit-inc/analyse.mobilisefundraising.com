@@ -37,4 +37,4 @@
 
 	<section class="container">
 		
-		<img class="logo" src="images/logo.png">
+		<a href="index.php"><img class="logo" src="images/logo.png"></a>
