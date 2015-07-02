@@ -4,9 +4,9 @@
 	<p class="second-title">Try it with a £3 donation to the DEC Nepal Appeal now.</p>
 
 	<div class="form-container">
-		<p>INSERT PAYMENT FORM HERE</p>
+		<iframe src="http://fpay.co/?sid=106053&skipSuccess=true" scrolling="no" style="border: none; margin-bottom: 30px;"></iframe>
 	</div>
-	
+
 </section>
 
 <?php include('footer.php'); ?>

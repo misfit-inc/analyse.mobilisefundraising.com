@@ -1,7 +1,8 @@
 <?php include('header.php'); ?>	
 
+	<!-- £3 -->
 	<div class="form-container">
-		<p>INSERT PAYMENT FORM HERE</p>
+		<iframe src="http://fpay.co/?sid=106053&skipSuccess=true" scrolling="no" style="border: none;"></iframe>
 	</div>
 	
 </section>

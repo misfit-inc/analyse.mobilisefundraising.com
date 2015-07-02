@@ -272,27 +272,22 @@ h1, h2, h3, h4, p {
 	color: #656e65;
 }
 
+.form-container {
+	width: 100%;
+	height: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: 560px;
+}
+
 
 
 /* ONE-CLICK PAGE & ONE-CLICK THANKS */
 .one-click .logo,
 .one-click2 .logo {
 	width: 200px;
-}
-
-.form-container {
-	background-color: #ffdd00; 
-	margin-bottom: 30px;
-	display: table;
-	height: 320px;
-	width: 100%; 
-}
-
-.form-container p {
-	vertical-align: middle;
-	display: table-cell;
-	text-align: center;
-	font-size: 26px;
 }
 
 
