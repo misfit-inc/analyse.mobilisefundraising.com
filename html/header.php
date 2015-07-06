@@ -6,7 +6,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Analyse Mobile Fundraising</title>
+<title>OMG Button</title>
 <meta name="description" content="">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -19,6 +19,15 @@
 
 <link rel="stylesheet" type="text/css" href="css/media.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<script>
+(function(window) {
+  if (window.location !== window.top.location) {
+    window.top.location = window.location;
+  }
+})(this);
+</script>
+
 </head>
 
 <?php 

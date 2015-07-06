@@ -196,7 +196,7 @@ h1, h2, h3, h4, p {
 
 .logo {
 	padding: 30px 0 30px 0;
-	width: 250px;
+	width: 200px;
 }
 
 .icon {
@@ -209,7 +209,7 @@ h1, h2, h3, h4, p {
 .button {
 	background-image: url(images/button.png);
 	background-position: center center; 
-	margin-bottom: 15px !important;
+	margin-bottom: 15px;
 	background-repeat: no-repeat;
 	background-size: 120% 100%;
 	text-transform: uppercase;
@@ -224,11 +224,15 @@ h1, h2, h3, h4, p {
 	opacity: 0.9;
 }
 
+.button.two-click {
+    margin-bottom: 15px;
+}
+
 .button2 {
 	background-image: url(images/button-2.png);
 	background-position: center center; 
 	font-family: ITCAvantGardeStd_Demi;
-	margin-top: 30px !important;
+	margin-top: 0;
 	margin-bottom: 30px !important;
 	background-repeat: no-repeat;
 	background-size: 120% 100%;
@@ -238,7 +242,6 @@ h1, h2, h3, h4, p {
 	position: relative;
 	padding: 10px 0;
 	font-size: 18px;
-	bottom: -20px;
 	color: #fff;
 	width: 100%;
 	opacity: 0.9;
@@ -294,14 +297,6 @@ iframe {
 
 
 
-/* ONE-CLICK PAGE & ONE-CLICK THANKS */
-.one-click .logo,
-.one-click2 .logo {
-	width: 200px;
-}
-
-
-
 /* TWO-CLICK PAGE & TWO-CLICK THANKS */
 .two-form .form-container {
 	margin-top: 36px;
@@ -310,7 +305,7 @@ iframe {
 .two-click-container {
 	margin-bottom: 30px;
 	position: relative;
-	height: 300px
+	height: auto;
 }
 
 .two-click-image {
@@ -319,7 +314,7 @@ iframe {
 	background-size: 100%;
 	border-radius: 20px;
 	position: relative;
-	height: 300px;
+	height: 141px;
 	width: 100%;	
 }
 

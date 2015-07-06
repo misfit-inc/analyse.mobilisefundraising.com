@@ -44,8 +44,8 @@ and (max-width : 479px)
 {	
 
 	.button {
-		padding: 5px 0 0 0 !important;
 		font-size: 45px;
+		padding: 0 0 13px;
 	}
 
 	.two-click-image:before {
@@ -86,9 +86,10 @@ and (max-width : 639px)
 		right: 20px;
 		top: 50px;
 	}
-
+	
 	.button {
-		padding: 5px 0 0 0 !important;
+	    font-size: 40px;
+	    padding: 0 0 10px;
 	}
 
 	.button3 {
@@ -262,7 +263,36 @@ and (max-width : 1399px)
 
 
 
-} 
+}
+
+
+
+@media only screen and (min-width: 639px) {
+
+	.two-click-image {
+		height: 328px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+	.two-click-image {
+		height: 268px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	.two-click-image {
+	    height: 178px;
+	}
+
+}
 
 
 
